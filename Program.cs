@@ -44,6 +44,7 @@ void PrintArray(string[] TextArray)
         Console.Write(item + " ");
     }
 }
+
 Console.Write("Введите количество элементов:\t ");
 int N = int.Parse(Console.ReadLine() ?? "0");
 string[] ArrayofString = GetTextFromUser(N);
