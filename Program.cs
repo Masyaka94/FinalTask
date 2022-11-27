@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-string[] GetTextFromUser(int length)
+﻿string[] GetTextFromUser(int length)
 {
     string[] array = new string[length];
     for (int i = 0; i < array.Length; i++)
